@@ -1,0 +1,10 @@
+#input1{
+    width: 40px;
+}
+#input2{
+    width: 40px;
+}
+html,body{
+    margin: 0;
+    height: 100%;
+}

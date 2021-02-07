@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometriya</title>
+    <link rel="stylesheet" href="geom.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+</head>
+<body>
+   
+
+    <div id="plot">
+        <p id="p1"></p>x<sup>2</sup> + <input v-model="B" type="number" id="input1">x + <input v-model="C" type="number" id="input2" > = 0</p>
+
+        <p id="p2" >D = {{ discriminant  }}</p>
+    
+      
+        <p id="p3">{{roots}} </p>
+    </div>
+    
+    <script src="geom.js"></script>
+</body>
+</html>
